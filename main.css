@@ -1,0 +1,95 @@
+/* border for reference */
+* {
+    border: 1px solid mediumvioletred;
+  }
+  
+  /* shrink images for placement */
+  img {
+    width: 100px;
+  }
+  
+  /*********************************
+  * General
+  *********************************/
+  
+  body {
+    background-color: snow;
+    color: slategrey;
+    margin: 20px 0;
+    font-family: "Baloo 2", cursive;
+    text-align: center;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  h2 {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-family: "Fredoka One", cursive;
+  }
+  
+  /*********************************
+  * Header
+  *********************************/
+  
+  header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  header div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 20px;
+    margin: auto;
+  }
+  
+  header h1 {
+    text-align: left;
+  }
+  
+  header div:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .logo {
+      display: flex;
+      width: 100%;
+  }
+
+/*********************************
+ * Container
+ *********************************/
+ .container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+ 
+  /*********************************
+  * Aside/Nav
+  *********************************/
+  
+  /*********************************
+  * Main
+  *********************************/
+  
+  /*********************************
+  * Footer
+  *********************************/
+  
